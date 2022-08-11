@@ -95,7 +95,9 @@ def save():
             elif canvas2.image==img9:
                 img8.save(file)
             elif canvas2.image==img11:
-                img10.save(file)        
+                img10.save(file)
+            else:
+                img.save(file)
 # create labels, scales and comboboxes
 blurr = Label(root, text="Blur:", font=("ariel 17 bold"), width=9, anchor='e')
 blurr.place(x=15, y=8)
